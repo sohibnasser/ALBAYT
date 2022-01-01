@@ -1,0 +1,293 @@
+body{
+    height: 3000PX;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* --------- navbar ------ */
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: slategray;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar p {
+    color: blue;
+    font-size: 40px;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.navbar i{
+    float: left;
+    margin-left: 50px;
+    margin-right: 0;
+    padding-top: .4%;
+    font-size: 45px;
+    color: rgb(178, 32, 44);
+}
+
+
+.navbar ul {
+    padding: 10px;
+    list-style: none;
+    float: left;
+    margin-left: 40%;
+   
+}
+.navbar ul li {
+    margin-top: 0;
+    display: inline-block;
+    margin-left:7px;
+    text-transform: uppercase;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* --------- header ------ */
+.header{
+    width: 100%;
+    height: 966px;
+    background-image: url(../img/3340_S1_final_home.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.header .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.7;
+
+}
+
+.header p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: solid red;
+}
+
+
+/* --------- about ------ */
+
+
+.about{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+}
+.about .info{
+    float: left;
+    margin-left: 40px;
+   
+}
+.about .info h1{
+    font-size: 50px;
+    width: 12%;
+    color: blue;
+    border-bottom: solid red;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about .info p {
+    width: 30%;
+    font-size: 20px;
+}
+ 
+.about img{
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    float: left;
+    left: 48%; 
+   box-shadow: 10px 0 20px red;
+}
+
+
+/* --------- services ------ */
+
+.services{
+    width: 100%;
+    height: 900px;
+    background-image: url(3333-2.jpg);
+    background-size:cover;
+    position: relative;
+}
+
+
+.services .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.7;
+    
+}
+
+.services span{
+    position: absolute;
+    margin: 8% 20% 15% 35%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 15px;
+    width: 27.5%;
+    text-transform: uppercase;
+    border-bottom: solid red;
+    z-index: 2;
+   
+    }
+
+    .services .opacity .icon {
+        margin: 11% 9% 0% 6%;
+        width: 18%;
+        color: white;
+        text-align: center;
+        float: left;
+        z-index: 2;
+
+    }
+
+    .services .opacity .icon i{
+        font-size:48px;
+        color: red;
+        padding-top: 8%;
+        position: absolute;
+    }
+    .services .opacity .icon p{
+        font-size: 20px;
+        color: white;
+        font-family: serif;
+        margin-left: 45px;
+        padding-top: 65%;
+    }
+
+    /* --------- our works ------ */
+    .our-works{
+        width: 100%;
+        height: 1150px;
+    }
+    .our-works h1{
+        margin-left: 40%;
+        font-size: 45px;
+        width: 245px;
+        border-bottom: solid purple;
+        text-transform: uppercase;
+        padding-top: 3%;
+    }
+    
+    .our-works .item .photo{
+        width: 30%;
+        margin-left:40px;
+        float: left;
+    }
+
+    .our-works .item .photo img{
+        width: 100%;
+        height: 250px;
+        padding-top: 5%;
+    }
+
+    .our-works .item .photo p{
+        font-size: 20px;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    
+    /* --------- contact-us ------ */
+    
+.contact-us{
+    width: 100%;
+    height: 800px;
+    background-image: url(صور-اساس-مودرن-جديد-فخم-جدا-3.jpg);
+    background-size: cover;
+}
+
+.contact-us  h1{
+    position: absolute;
+    margin: 8% 20% 15% 33%;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 15px;
+    width: 35.7%;
+    text-transform: uppercase;
+    border-bottom: solid blue;
+    z-index: 2;
+   
+    }
+.contact-us .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.8;
+    position: relative;
+}
+
+.contact-us .opacity .program {
+    margin: 25% 10% 0% 5%;
+    width: 15%;
+    text-align: center;
+    float: left;
+    z-index: 2;
+}
+    .contact-us .opacity .program  i{
+        font-size:25px;
+        color: blue;
+        position: absolute;
+        background-color: cornsilk;
+        box-shadow: 0 0 10px blue;
+        padding: 10px 5px 0px 5px;
+        float: left;
+        width: 15%;
+        margin-left:1% ;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+   
+    .contact-us .opacity ul{
+        list-style: none;
+        font-size: 25px;
+        padding-top: 50%;
+        margin-left: 25%;   
+    }
+
+    .contact-us .opacity ul li{
+        display: inline;
+        color: blue;
+        margin-left: 8%;
+        background-color: rgb(242, 243, 250);
+        width: 20%;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px blue;
+        cursor: pointer;
+    }
+
+    
+    /* --------- END ------ */
+    .end{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+
+        <!--------- navbar --------->
+        
+         <div class="navbar">
+            <i class="fa fa-home"></i>
+            <p>albayt</p>
+            <ul>
+                <li id="one" onclick="one()" onmouseleave="on()"><a href="#">home</a></li>
+                <li id="two"  onclick="two()" onmouseleave="tw()"><a href="#about">about</a></li>
+                <li id="three" onclick="three()" onmouseleave="th()"><a href="#services">services</a></li>
+                <li id="four" onclick="four()" onmouseleave="fo()"><a href="#our-works">our-works</a></li>
+                <li id="five" onclick="five()" onmouseleave="fi()"><a href="#contact-us">contact-us</a></li>
+            </ul>
+         </div>
+
+         <!--------- header --------->
+
+         <div class="header">
+            <div class="opacity"></div>
+            <p>welcom to albayt furniture</p>
+        </div>
+        
+        <!--------- about --------->
+       <div id="about" class="about">
+           <div class="info">
+               <h1>about</h1>
+               <p>Al-Bayt Company for the sale of home furniture, kitchen appliances and electrical appliances
+                Al Mohsen was founded in 1950
+                All our products are imported from abroad, and we have branches all over the country , All models are available at the lowest prices
+                We have shipping all over the country
+                Catch up on the Black Friday offer and buy and prepare your home .
+                </p>
+                
+                
+            </div>  
+                <img id="img" src="img/licensed-image.jpg" >
+                
+        
+       </div>
+
+       <!--------- services --------->
+       <div id="services" class="services">
+            <span>services</span>
+            <div class="opacity">
+
+            <div class="icon">
+                <i class="fa fa-cc-visa"></i>
+                <p>You can pay with the visa</p>
+             </div>
+
+                <div class="icon">
+                    <i class="fa fa-truck"></i>
+                    <p>Home delivery service all over the country</p>
+                </div>
+
+                    <div class="icon">
+                      <i class="fa fa-first-order"></i>
+                        <p>one year warranty on the product</p>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa fa-money"></i>
+                        <p>Payment in installments over two years</p>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa fa-bed"></i>
+                        <p>Replace the product within 5 days if the product is intact</p>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa fa-pie-chart"></i>
+                      <p>Return the product within two days with a discount of 5% of its price</p>
+                    </div>
+
+
+            </div>
+
+       </div>
+
+        <!--------- our works --------->
+       <div id="our-works" class="our-works">
+            <h1>our-works</h1>
+           <div class="item">
+
+              <div class="photo">
+                <img onmouseenter="show1()"  onmouseleave="hide1()" src="img/images.jpg">
+                <p id="click1">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show2()"  onmouseleave="hide2()" src="img/Molteni-Reversi-14-Sofa-5.jpg">
+                <p id="click2">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show3()"  onmouseleave="hide3()" src="img/غرف-نوم-1024x576.jpg">
+                <p id="click3">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show4()"  onmouseleave="hide4()" src="img/download.jpg">
+                <p id="click4">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show5()"  onmouseleave="hide5()" src="img/images (1).jpg">
+                <p id="click5">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show6()"  onmouseleave="hide6()" src="img/1751.jpg">
+                <p id="click6">made in egypt</p>
+              </div>
+              
+              <div class="photo">
+                <img onmouseenter="show7()"  onmouseleave="hide7()" src="img/images (3).jpg">
+                <p id="click7">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show8()"  onmouseleave="hide8()" src="img/81lh1U1XAfL._SL1500_.jpg">
+                <p id="click8">made in egypt</p>
+              </div>
+
+              <div class="photo">
+                <img onmouseenter="show9()"  onmouseleave="hide9()" src="img/unnamed (1).jpg">
+                <p id="click9">made in egypt</p>
+              </div>
+
+           </div>
+       </div>
+
+       <!--------- contact us --------->
+       <div id="contact-us" class="contact-us">
+
+        <h1>contact-us</h1>
+
+        <div class="opacity">
+
+        <div class="program">
+            <i class="fa fa-phone">
+            <p>015000000</p></i>
+         </div>
+
+         <div class="program" id="map" onclick="map()">
+            <i class="fa fa-map-marker">
+            <p>cairo-egypt</p></i>
+       </div>
+
+       <div class="program" id="gm" onclick="gm()">
+            <i class="fa fa-envelope">
+            <p>albayt@gmail.com</p></i>
+       </div>
+        
+       <ul>
+
+            <li id="fac"><i class="fa fa-facebook"></i></li>
+            <li id="twi"><i class="fa fa-twitter"></i></li>
+            <li id="you"><i class="fa fa-youtube"></i></li>
+            <li id="ins"><i class="fa fa-instagram"></i></li>
+            
+       </ul>
+       </div>
+      </div>
+
+       <!--------- end --------->
+      <div class="end">
+        All Right Reseved 2021 , Design By SOHIB NASSER
+      </div>
+
+
+      <script src="js/script.js"></script>
+    </body>
+</html>
